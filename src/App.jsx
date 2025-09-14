@@ -8,8 +8,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/*" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/smashers-zone-react-app/home" element={<Home />} />
+        <Route path="/smashers-zone-react-app/login" element={<Login />} />
       </Routes>
     </Router>
   );
