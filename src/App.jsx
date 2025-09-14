@@ -10,7 +10,7 @@ function App() {
         <Route path="/*" element={<Home />} />
         <Route path="/smashers-zone-react-app/home" element={<Home />} />
         <Route path="/smashers-zone-react-app/login" element={<Login />} />
-      </Routes>
+      </Routes> 
     </Router>
   );
 }
