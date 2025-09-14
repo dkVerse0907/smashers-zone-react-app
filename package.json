@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dkVerse0907.github.io/smashers-zone-react-app",
+  "homepage": "https://dkVerse0907.github.io/smashers-zone-react-app/",
   "name": "smashers-zone-react-app",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
